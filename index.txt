@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="styles.css">
+  <title>Aviation Office</title>
+</head>
+<body>
+ 
+  <audio controls loop>
+    <source src="audio/airplane-fly-over-01.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>
+    <h1>UMZA Aviation Service Limited</h1>
+  </header>
+
+  <div class="hero">
+    <img src="photos/airplane-aircraft.png" height="50px" width="150%" alt="Airplane" class="animated-airplane element">
+    <img src="photos/ai.png" alt="Airplane" width="50%" height="100px" class="animated-airplane2 element">
+  </div>
+
+  
+   
+    <!-- Top Content Section -->
+    <div class="top-content">
+      
+      
+      <h2>About Us</h2>
+      <p>
+        UMZA Aviation Service Limited is a leading aviation company dedicated to providing exceptional aviation services to our clients. With a commitment to safety, reliability, and customer satisfaction, we strive to be the premier choice for all aviation needs.
+
+        As a full-service aviation company, UMZA Aviation Service Limited offers a wide range of services including aircraft maintenance, repair, and overhaul, aircraft management, charter services, and aviation consulting. Our team of highly skilled and experienced professionals are dedicated to delivering the highest quality of service and ensuring that our clients' needs are met with the utmost care and attention to detail.
+        
+        At UMZA Aviation Service Limited, safety is our top priority. We adhere to the highest industry standards and regulations to ensure the safety and security of our clients and their aircraft. Our team undergoes rigorous training and certification to maintain the highest level of expertise and professionalism in all aspects of aviation services.
+        
+        We are committed to providing our clients with personalized and tailored solutions to meet their specific aviation needs. Whether it's aircraft maintenance and repair, aircraft management, or charter services, we work closely with our clients to understand their requirements and deliver customized solutions that exceed their expectations.
+        
+        UMZA Aviation Service Limited is dedicated to providing exceptional service, reliability, and professionalism in all aspects of aviation. We are proud to be a trusted partner for our clients and look forward to continuing to serve the aviation community with excellence. Thank you for choosing UMZA Aviation Service Limited for all your aviation needs.
+      </p>
+        
+      <!-- Your content for the top section goes here -->
+       
+    </div>
+ 
+    <div class="bottom-content-left"> 
+      
+      
+        </div>
+    
+        <div class="bottom-content-right"> 
+         
+         
+            <img src="photos/person.png" alt="Person" class="advertising-person">
+            
+            </div>
+
+
+
+   <div>
+
+ 
+    <footer>
+      <div class="card">
+        <div class="message-box">
+          <input type="text" placeholder="Enter your message">
+          <button>Send</button>
+        </div>
+      </div>
+      <p>&copy; 2023 Aviation Office</p>
+    </footer>
+    <script src="script.js"></script>
+
+   </div>
+  
+</body>
+</html>

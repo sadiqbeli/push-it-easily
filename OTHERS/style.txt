@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+p {
+  font-size: 18px; /* Add your preferred font size here */
+  line-height: 1.6; /* Add your preferred line height here */
+  color: #333; /* Add your preferred text color here */
+  text-align: justify;
+  padding: 12px;
+}
+header {
+  background-color: linear-gradient(to right, #FF5733, #cdaca4);
+  background-size: cover;
+  color: #0000ff;
+  text-align: center;
+  padding: 10px; /* Adjust the padding to your preference */
+  position: relative;
+  z-index: 2; /* Set a higher z-index to ensure the header appears above other elements */
+}
+
+.hero {
+  height: 150px; /* Increase the height of the hero section */
+  text-align: left;
+  margin-top: 0;
+  background-image: url('photos/cloud.jpg');
+  background-size: 100% 100%; /* Set the background size to cover the entire container */
+  padding: 50px;
+}
+
+.animated-airplane {
+  width: 100px;
+  animation: flying 20s infinite;
+}
+
+.animated-airplane2 {
+  width: 100px;
+  animation: flying2 15s infinite;
+  float: right;
+}
+
+@keyframes flying {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(400px, -60px);
+  }
+}
+
+@keyframes flying2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-1600px, -50px);
+  }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.message-box {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* New Styles for the Content Sections */
+.top-content {
+  width: 100%;
+  /* border:solid 1PX; */
+  display: block;
+ /* border: solid 1px; */
+}
+.bottom-content{
+  width: 100%;
+  border:solid 1PX;
+}
+.bottom-content-left {
+  width: 59%;
+  float: left;
+  /* border:solid 1PX; */
+}
+
+.bottom-content-right {
+  width: 39%;
+  float: right;
+  /* border:solid 1PX; */
+}
+
+.sidebar {
+  width: 200px; /* Set the width of the sidebar */
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: linear-gradient(to right, #FF5733, #FF5733);
+  color: #0a0909;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border:solid 1PX;
+  z-index: 1; /* Set a lower z-index to ensure the footer appears below other elements */
+}
+/* Default styles for all screen sizes */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+
+  p {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Set the height of the footer */
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+}

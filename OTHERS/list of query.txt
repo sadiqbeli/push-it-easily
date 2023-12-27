@@ -1,0 +1,4 @@
+1. Small: 320px - 767px
+2. Medium: 768px - 1023px
+3. Large: 1024px - 1439px
+4. Extra Large: 1440px and above
